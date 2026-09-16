@@ -1,0 +1,25 @@
+<svg viewBox="0 0 400 220" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Silhueta do horizonte de São Paulo ao entardecer">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0F1B2D"/>
+      <stop offset="100%" stop-color="#2A3B54"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="220" fill="url(#sky)"/>
+  <circle cx="330" cy="60" r="28" fill="#E8A33D" opacity="0.85"/>
+  <g fill="#16243A">
+    <rect x="10" y="120" width="26" height="90"/>
+    <rect x="42" y="90" width="20" height="120"/>
+    <rect x="68" y="140" width="30" height="70"/>
+    <rect x="104" y="70" width="24" height="140"/>
+    <rect x="134" y="110" width="18" height="100"/>
+    <rect x="158" y="50" width="28" height="160"/>
+    <rect x="192" y="95" width="22" height="115"/>
+    <rect x="220" y="130" width="26" height="80"/>
+    <rect x="252" y="75" width="20" height="135"/>
+    <rect x="278" y="150" width="30" height="60"/>
+    <rect x="314" y="115" width="18" height="95"/>
+    <rect x="338" y="85" width="24" height="125"/>
+    <rect x="368" y="135" width="22" height="75"/>
+  </g>
+</svg>

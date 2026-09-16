@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>WDD 131 – Dynamic Web Fundamentals – Matheus Nascimento</title>
+  <meta name="description" content="WDD 131 – Dynamic Web Fundamentals. Home page for Matheus Nascimento: Backend Developer at C6 Bank, with experience in Java, Kotlin, and Spring Boot on financial-sector projects." />
+  <meta name="author" content="Matheus Nascimento" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600&family=IBM+Plex+Sans:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles/base.css" />
+  <script src="scripts/getdates.js" defer></script>
+</head>
+<body>
+  <header>
+    <span id="course-title">WDD 131: Dynamic Web Fundamentals</span>
+    <nav>
+      <ul>
+        <li><a href="https://www.linkedin.com/in/nascimento-matheus/" target="_blank" rel="noopener">LinkedIn</a></li>
+        <li><a href="https://byupw.instructure.com/" target="_blank" rel="noopener">Canvas</a></li>
+        <li><a href="https://www.churchofjesuschrist.org/study/scriptures" target="_blank" rel="noopener">Scripture</a></li>
+        <li><a href="#">Final Project</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Matheus Nascimento</h1>
+
+    <div class="card-grid">
+      <section class="card">
+        <h2>About Me</h2>
+        <div class="card-body about-layout">
+          <div>
+            <p>
+              I'm based in São Paulo, Brazil, and I work as a Backend Developer
+              at C6 Bank, building services with Kotlin, Java, Spring Boot,
+              PostgreSQL, and MongoDB. I've also worked at Compass UOL, at IBM
+              (on the Santander project), and at NTT DATA (on the Itaú
+              project), always on backend teams for the financial sector.
+            </p>
+            <p>
+              I have 4+ years of experience with Java, Kotlin, Spring Boot,
+              AWS, microservices, and REST APIs. I'm currently pursuing a
+              Bachelor's in Software Engineering at BYU-Pathway Worldwide and
+              an MBA in Software Engineering.
+            </p>
+          </div>
+          <img src="images/me.jpg" alt="Photo of Matheus Nascimento" width="140" height="180" />
+        </div>
+      </section>
+
+      <section class="card">
+        <h2>Experience &amp; Skills</h2>
+        <div class="card-body">
+          <img src="images/sp-skyline.svg" alt="Stylized São Paulo skyline at sunset" width="400" height="180" />
+          <ul>
+            <li>Backend Developer – C6 Bank (2025–present)</li>
+            <li>Backend Developer – Compass UOL (2024–2025)</li>
+            <li>Application Developer – IBM, Santander project (2023)</li>
+            <li>Junior Backend Developer – NTT DATA, Itaú project (2021–2023)</li>
+            <li>Java, Kotlin, Spring Boot, AWS, microservices, REST APIs</li>
+          </ul>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy;<span id="currentyear"></span> Matheus Nascimento &middot; São Paulo, Brazil</p>
+    <p id="lastModified"></p>
+  </footer>
+</body>
+</html>
