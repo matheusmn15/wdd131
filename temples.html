@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Temple Album | WDD 131</title>
+  <meta name="description" content="A responsive album of temples from around the world." />
+  <meta name="author" content="Matheus Nascimento" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600&family=IBM+Plex+Sans:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles/temples.css" />
+  <link rel="stylesheet" href="styles/temples-large.css" />
+  <script src="scripts/temples.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <span class="site-title">Temple Album</span>
+      <button class="menu-toggle" type="button" aria-label="Open navigation menu" aria-expanded="false" aria-controls="primary-nav">☰</button>
+      <nav id="primary-nav" aria-label="Primary navigation">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#old">Old</a></li>
+          <li><a href="#new">New</a></li>
+          <li><a href="#large">Large</a></li>
+          <li><a href="#small">Small</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="home">
+    <h1>Home</h1>
+    <div class="temple-grid">
+      <figure>
+        <img src="images/sao_paulo_brazil_temple_lds.jpeg" alt="Sao Paulo Temple image" width="640" height="400" />
+        <figcaption>Salt Lake Utah Temple </figcaption>
+      </figure>
+      <figure>
+        <img src="images/sao_paulo_brazil_temple_lds.jpeg" alt="Sao Paulo Temple image" width="640" height="400" />
+        <figcaption>São Paulo Brazil Temple </figcaption>
+      </figure>
+      <figure>
+        <img src="images/sao_paulo_brazil_temple_lds.jpeg" alt="Sao Paulo Temple image" width="640" height="400" />
+        <figcaption>Rome Italy Temple </figcaption>
+      </figure>
+      <figure>
+        <img src="images/sao_paulo_brazil_temple_lds.jpeg" alt="Sao Paulo Temple image" width="640" height="400" />
+        <figcaption>Accra Ghana Temple </figcaption>
+      </figure>
+      <figure>
+        <img src="images/sao_paulo_brazil_temple_lds.jpeg" alt="Sao Paulo Temple image" width="640" height="400" />
+        <figcaption>Mexico City Mexico Temple </figcaption>
+      </figure>
+      <figure>
+        <img src="images/sao_paulo_brazil_temple_lds.jpeg" alt="Sao Paulo Temple image" width="640" height="400" />
+        <figcaption>Paris France Temple </figcaption>
+      </figure>
+      <figure>
+        <img src="images/sao_paulo_brazil_temple_lds.jpeg" alt="Sao Paulo Temple image" width="640" height="400" />
+        <figcaption>Manila Philippines Temple </figcaption>
+      </figure>
+      <figure>
+        <img src="images/sao_paulo_brazil_temple_lds.jpeg" alt="Sao Paulo Temple image" width="640" height="400" />
+        <figcaption>Cardston Alberta Temple </figcaption>
+      </figure>
+      <figure>
+        <img src="images/sao_paulo_brazil_temple_lds.jpeg" alt="Sao Paulo Temple image" width="640" height="400" />
+        <figcaption>Fiji Temple </figcaption>
+      </figure>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy;<span id="currentyear"></span> Matheus Nascimento &middot; São Paulo, Brazil</p>
+    <p id="lastModified"></p>
+  </footer>
+</body>
+</html>

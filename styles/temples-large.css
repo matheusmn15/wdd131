@@ -1,0 +1,43 @@
+@media (min-width: 700px) {
+  .header-inner {
+    flex-wrap: nowrap;
+    padding: 1rem 1.5rem;
+  }
+
+  .menu-toggle {
+    display: none;
+  }
+
+  nav {
+    display: block;
+    flex-basis: auto;
+  }
+
+  nav ul {
+    flex-direction: row;
+    align-items: center;
+    gap: 0.35rem;
+    padding: 0;
+  }
+
+  nav a {
+    border-left: 0;
+    border-bottom: 3px solid transparent;
+    padding: 0.45rem 0.75rem;
+  }
+
+  nav a:hover,
+  nav a:focus-visible {
+    border-left-color: transparent;
+    border-bottom-color: var(--color-accent);
+  }
+
+  h1 {
+    font-size: 2.35rem;
+  }
+
+  .temple-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.75rem;
+  }
+}
