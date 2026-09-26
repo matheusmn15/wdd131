@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Madagascar | Island of Baobabs</title>
+  <meta name="description" content="Discover Madagascar, an island nation known for its baobabs, unique wildlife, and Indian Ocean coastline." />
+  <meta name="author" content="Matheus Nascimento" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600&family=IBM+Plex+Sans:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles/place.css" />
+  <script src="scripts/place.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <p class="eyebrow">Indian Ocean · 20°S, 47°E</p>
+    <h1>Madagascar</h1>
+    <p class="tagline">A world apart, shaped by land and sea.</p>
+  </header>
+
+  <main>
+    <figure class="hero">
+      <picture>
+        <source media="(max-width: 700px)" srcset="images/madagascar-mobile.webp" type="image/webp" />
+        <img src="images/madagascar-wide.webp" srcset="images/madagascar-wide.webp 1280w" sizes="100vw" alt="Baobab scenery in Madagascar" width="1280" height="719" fetchpriority="high" />
+      </picture>
+      <figcaption>
+        <span class="credit-wide">Photo: Lukys, <a href="https://creativecommons.org/licenses/by-sa/3.0/" target="_blank" rel="noopener">CC BY-SA 3.0</a>, via <a href="https://commons.wikimedia.org/wiki/File:The_baobab,_Mahajanga.jpg" target="_blank" rel="noopener">Wikimedia Commons</a>. Resized and converted to WebP.</span>
+        <span class="credit-mobile">Photo: Chainsawpunk, <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener">CC BY-SA 4.0</a>, via <a href="https://commons.wikimedia.org/wiki/File:Goat_in_front_of_Avenue_of_the_Baobabs.jpg" target="_blank" rel="noopener">Wikimedia Commons</a>. Converted to WebP.</span>
+      </figcaption>
+    </figure>
+
+    <div class="page-content">
+      <section class="info-panel" aria-labelledby="data-heading">
+        <h2 id="data-heading">Island at a glance</h2>
+        <dl>
+          <div><dt>Capital</dt><dd>Antananarivo</dd></div>
+          <div><dt>Area</dt><dd>587,041 km²</dd></div>
+          <div><dt>Population</dt><dd>About 30.3 million</dd></div>
+          <div><dt>Languages</dt><dd>Malagasy, French</dd></div>
+          <div><dt>Currency</dt><dd>Malagasy ariary (MGA)</dd></div>
+          <div><dt>Known for</dt><dd>Baobabs and endemic wildlife</dd></div>
+        </dl>
+        <p class="about-copy">Separated from mainland Africa for millions of years, Madagascar is home to extraordinary species found nowhere else on Earth.</p>
+      </section>
+
+      <section class="weather-panel" aria-labelledby="weather-heading">
+        <h2 id="weather-heading">Weather</h2>
+        <img class="weather-icon" src="images/weather-partly-cloudy.svg" alt="Partly cloudy" width="52" height="52" />
+        <dl>
+          <div><dt>Conditions</dt><dd>Partly cloudy</dd></div>
+          <div><dt>Temperature</dt><dd><span id="temperature">8</span> °C</dd></div>
+          <div><dt>Wind</dt><dd><span id="wind-speed">12</span> km/h</dd></div>
+          <div><dt>Wind chill</dt><dd id="wind-chill">N/A</dd></div>
+        </dl>
+        <p class="weather-note">Antananarivo · cool-season morning</p>
+      </section>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; <span id="currentyear"></span> Matheus Nascimento · Madagascar</p>
+    <p id="lastModified"></p>
+  </footer>
+</body>
+</html>
