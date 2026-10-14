@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Review Submitted | WDD 131</title>
+  <meta name="description" content="Product review submission confirmation." />
+  <meta name="author" content="Matheus Nascimento" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles/base.css" />
+  <link rel="stylesheet" href="styles/product-review.css" />
+  <script src="scripts/getdates.js" defer></script>
+  <script src="scripts/review-confirmation.js" defer></script>
+</head>
+<body>
+  <main class="review-main confirmation-main">
+    <h1>Review Received</h1>
+    <section aria-live="polite">
+      <p id="confirmation-message">No submitted review was found.</p>
+      <dl id="review-details" hidden>
+        <div><dt>Product</dt><dd id="submitted-product"></dd></div>
+        <div><dt>Rating</dt><dd id="submitted-rating"></dd></div>
+        <div><dt>Date of Installation</dt><dd id="submitted-date"></dd></div>
+      </dl>
+      <p class="review-count">Reviews completed: <strong id="review-count">0</strong></p>
+      <a class="return-link" href="form.html">Write another review</a>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy;<span id="currentyear"></span> Matheus Nascimento &middot; São Paulo, Brazil</p>
+    <p id="lastModified"></p>
+  </footer>
+</body>
+</html>
