@@ -1,13 +1,10 @@
-:root {
+.review-page {
   --review-ink: #202a33;
   --review-muted: #53616b;
   --review-surface: #f2f5f4;
   --review-border: #bdc9c8;
   --review-accent: #145c52;
   --review-highlight: #f2c14e;
-}
-
-body {
   background: var(--review-surface);
   color: var(--review-ink);
 }
@@ -32,7 +29,7 @@ body {
   border: 1px solid var(--review-border);
   border-radius: 4px;
   background: #fff;
-  box-shadow: 0 5px 18px rgb(32 42 51 / 8%);
+  box-shadow: 0 5px 18px #202a3314;
 }
 
 .form-field {
@@ -199,7 +196,7 @@ body {
   clip-path: inset(50%);
 }
 
-footer {
+.review-footer {
   margin-top: 2rem;
 }
 
